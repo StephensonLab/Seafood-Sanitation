@@ -1,0 +1,24 @@
+/* NC State Seafood Sanitation Training v1.0.0
+ * © 2018 | NC State University Food Science | https://fbns.ncsu.edu
+*/
+
+/* set width of this particular iFrame element (with id of iFrameFullWidth) to full width */
+#iFrameFullWidth {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+/* set content width of this particular screen (with class of thisScreenFullWidth) to full width */
+.thisScreenFullWidth .content {
+  width: 100% !important;
+}
+
+/* remove the gap near the top of the content on larger screens */
+.thisScreenFullWidth .stageContainer .content {
+  margin-top: 0;
+}
+
+/* set the width of the checkContainer (the footer element with the "Next" Button) so it is not also full width */
+.thisScreenFullWidth .checkContainer {
+  max-width: 66.5% !important;
+}
